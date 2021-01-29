@@ -1,0 +1,52 @@
+#Properties file
+#application.yml
+
+.classpath
+.project
+.settings
+.springBeans
+.factorypath
+target
+*/target
+mvnw
+mvnw.cmd
+.DS_Store
+.mvn
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.idea/
+
+# Maven
+log/
+target/
+
+# To ignore logs directory created while running services.
+**/logs/**
+**/logs
+*.log
+
+*.class
+
+#Gradle
+.gradletasknamecache
+.gradle/
+build/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+hs_err_pid*
+
+#temporary storage for files
+file-processor/tmp/
+
+#redis dumps
+*.rdb
+
+# include third party libs from the folder into the repo
+!libs/*
