@@ -59,7 +59,7 @@ public class CovidTimeSeries {
         return dailydeceased;
     }
 
-    private void setDailydeceased(Long dailydeceased) {
+    public void setDailydeceased(Long dailydeceased) {
         this.dailydeceased = dailydeceased;
     }
 
