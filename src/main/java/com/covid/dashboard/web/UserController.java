@@ -53,7 +53,7 @@ public class UserController {
         return "redirect:/welcome";
     }
 
-    @GetMapping("/login")
+    @GetMapping("/login-page")
     public String login(Model model, String error, String logout) {
         if (securityService.isAuthenticated()) {
             return "redirect:/";
