@@ -50,7 +50,6 @@ class UserControllerIntegrationTest {
         user.setPasswordConfirm("password");
     }
 
-
     @DisplayName("Registration View")
     @Test
     void registrationPage() throws Exception {
